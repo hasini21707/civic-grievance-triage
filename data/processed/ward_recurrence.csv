@@ -1,0 +1,200 @@
+Ward_Name_Clean,complaint_count,category_diversity,top_category_ratio,repeat_subcategory_count,complaint_density,cluster,cluster_rank,recurrence_score,recurrence_level
+A.Narayanapura,2541,22,0.3349,72,0.1387,2,1,0.5,Medium Recurrence
+Adugodi,1290,19,0.4651,46,0.0704,1,0,0.0,Low Recurrence
+Agaram,1239,23,0.5214,51,0.0676,1,0,0.0,Low Recurrence
+Agrahara Dasarahalli,1278,19,0.3756,53,0.0697,1,0,0.0,Low Recurrence
+Anjanapur,4978,25,0.4504,75,0.2717,2,1,0.5,Medium Recurrence
+Arakere,7139,27,0.3453,89,0.3896,2,1,0.5,Medium Recurrence
+Aramane Nagar,2468,23,0.4068,67,0.1347,2,1,0.5,Medium Recurrence
+Attiguppe,4239,26,0.3817,72,0.2313,2,1,0.5,Medium Recurrence
+Azad Nagar,1153,18,0.5152,43,0.0629,1,0,0.0,Low Recurrence
+Bagalagunte,5603,28,0.4706,81,0.3058,2,1,0.5,Medium Recurrence
+Banashankari Temple Ward,1656,19,0.5169,46,0.0904,1,0,0.0,Low Recurrence
+Banaswadi,9431,26,0.339,83,0.5147,0,2,1.0,High Recurrence
+Bapuji Nagar,1600,21,0.5231,49,0.0873,1,0,0.0,Low Recurrence
+Basavanagudi,3738,26,0.3938,67,0.204,2,1,0.5,Medium Recurrence
+Basavanapura,6686,26,0.3649,83,0.3649,2,1,0.5,Medium Recurrence
+Basaveshwara Nagar,1688,17,0.3495,57,0.0921,1,0,0.0,Low Recurrence
+Begur,16353,30,0.4509,103,0.8925,0,2,1.0,High Recurrence
+Bellandur,13255,30,0.2651,108,0.7234,0,2,1.0,High Recurrence
+Benniganahalli,4898,28,0.3181,79,0.2673,2,1,0.5,Medium Recurrence
+Bharathi Nagar,1610,22,0.3658,47,0.0879,1,0,0.0,Low Recurrence
+Bilekahalli,5511,25,0.3531,86,0.3008,2,1,0.5,Medium Recurrence
+Binnipet,872,20,0.3853,51,0.0476,1,0,0.0,Low Recurrence
+Bommanahalli,3443,23,0.4496,72,0.1879,2,1,0.5,Medium Recurrence
+Btm Layout,6588,25,0.4451,83,0.3595,2,1,0.5,Medium Recurrence
+Byatarayanapura,7617,29,0.3626,89,0.4157,0,2,1.0,High Recurrence
+Byrasandra,2880,24,0.4049,59,0.1572,2,1,0.5,Medium Recurrence
+C.V.Raman Nagar,3129,23,0.3234,67,0.1708,2,1,0.5,Medium Recurrence
+Chalavadipalya,839,13,0.3671,40,0.0458,1,0,0.0,Low Recurrence
+Chamrajpet,2374,21,0.4541,65,0.1296,1,0,0.0,Low Recurrence
+Chikkalasandra,2656,19,0.4405,60,0.145,1,0,0.0,Low Recurrence
+Chikpete,5309,29,0.3524,83,0.2897,2,1,0.5,Medium Recurrence
+Chokkasandra,3114,25,0.4695,73,0.17,2,1,0.5,Medium Recurrence
+Chowdeshwari Ward,1669,19,0.4224,61,0.0911,1,0,0.0,Low Recurrence
+Cottonpet,1202,19,0.3037,48,0.0656,1,0,0.0,Low Recurrence
+Dattathreya Temple,1924,21,0.4777,59,0.105,1,0,0.0,Low Recurrence
+Dayananda Nagar,749,17,0.474,39,0.0409,1,0,0.0,Low Recurrence
+Deepanjali Nagar,1855,22,0.5024,56,0.1012,1,0,0.0,Low Recurrence
+Devarajeevanahalli,762,16,0.5945,34,0.0416,1,0,0.0,Low Recurrence
+Devasandra,1464,21,0.3272,61,0.0799,1,0,0.0,Low Recurrence
+Dharmarayaswamy Temple Ward,3080,25,0.3468,72,0.1681,2,1,0.5,Medium Recurrence
+Dodda Bidarkallu,9760,24,0.586,88,0.5327,0,2,1.0,High Recurrence
+Doddabommasandra,2054,23,0.4898,65,0.1121,2,1,0.5,Medium Recurrence
+Doddanekkundi,8967,26,0.3486,97,0.4894,0,2,1.0,High Recurrence
+Domlur,2317,24,0.3673,65,0.1265,2,1,0.5,Medium Recurrence
+Dr.Rajkumar Ward,1534,20,0.3677,62,0.0837,1,0,0.0,Low Recurrence
+Ejipura,2853,22,0.3481,64,0.1557,2,1,0.5,Medium Recurrence
+Gali Anjaneya Swamy Temple Ward,1519,22,0.5069,50,0.0829,1,0,0.0,Low Recurrence
+Gandhi Nagar,3182,25,0.3683,71,0.1737,2,1,0.5,Medium Recurrence
+Ganeshmandira Ward,3075,21,0.3737,58,0.1678,1,0,0.0,Low Recurrence
+Ganga Nagar,1931,23,0.42,63,0.1054,1,0,0.0,Low Recurrence
+Gangenahalli,1169,18,0.5697,44,0.0638,1,0,0.0,Low Recurrence
+Garudacharpalya,2793,25,0.2424,80,0.1524,2,1,0.5,Medium Recurrence
+Gayathri Nagar,1543,17,0.3908,52,0.0842,1,0,0.0,Low Recurrence
+Giri Nagar,5802,22,0.3945,66,0.3167,2,1,0.5,Medium Recurrence
+Gottigere,9472,29,0.3695,93,0.5169,0,2,1.0,High Recurrence
+Govindraja Nagara,1652,20,0.4225,61,0.0902,1,0,0.0,Low Recurrence
+Gurappanapalya,1642,19,0.4537,41,0.0896,1,0,0.0,Low Recurrence
+H.M.T,2019,21,0.2798,65,0.1102,1,0,0.0,Low Recurrence
+Hagadooru,6083,26,0.2188,94,0.332,2,1,0.5,Medium Recurrence
+Hal Airport,1512,23,0.3022,55,0.0825,1,0,0.0,Low Recurrence
+Hampi Nagar,3184,21,0.5751,63,0.1738,1,0,0.0,Low Recurrence
+Hanumantha Nagar,2119,26,0.4653,59,0.1156,2,1,0.5,Medium Recurrence
+Hbr Layout,8284,28,0.4353,80,0.4521,0,2,1.0,High Recurrence
+Hebbal,3263,26,0.3717,67,0.1781,2,1,0.5,Medium Recurrence
+Hegganahalli,2286,23,0.5166,61,0.1248,1,0,0.0,Low Recurrence
+Hemmigepura,14396,29,0.5478,100,0.7857,0,2,1.0,High Recurrence
+Herohalli,7943,27,0.566,80,0.4335,0,2,1.0,High Recurrence
+Hombegowda Nagar,3168,24,0.3431,62,0.1729,2,1,0.5,Medium Recurrence
+Hongasandra,2941,22,0.442,67,0.1605,2,1,0.5,Medium Recurrence
+Hoodi,10628,29,0.3949,91,0.58,0,2,1.0,High Recurrence
+Horamavu,17437,29,0.3674,108,0.9516,0,2,1.0,High Recurrence
+Hosahalli,2199,21,0.5066,53,0.12,1,0,0.0,Low Recurrence
+Hosakerehalli,2766,25,0.5155,65,0.151,2,1,0.5,Medium Recurrence
+Hoysala Nagar,5184,26,0.3343,79,0.2829,2,1,0.5,Medium Recurrence
+Hsr Layout,10050,28,0.3013,94,0.5485,0,2,1.0,High Recurrence
+J.P.Nagar,5626,27,0.3823,74,0.307,2,1,0.5,Medium Recurrence
+J.P.Park,2119,21,0.4766,61,0.1156,1,0,0.0,Low Recurrence
+Jagajeevanram Nagar,993,15,0.5307,35,0.0542,1,0,0.0,Low Recurrence
+Jakkasandra,1544,19,0.3569,57,0.0843,1,0,0.0,Low Recurrence
+Jakkur,12700,29,0.4898,96,0.6931,0,2,1.0,High Recurrence
+Jalahalli,1758,22,0.273,60,0.0959,1,0,0.0,Low Recurrence
+Jaraganahalli,1545,21,0.4006,58,0.0843,1,0,0.0,Low Recurrence
+Jayachamarajendra Nagar,2121,22,0.4856,54,0.1158,1,0,0.0,Low Recurrence
+Jayamahal,1299,20,0.4303,56,0.0709,1,0,0.0,Low Recurrence
+Jayanagar East,2517,25,0.4287,61,0.1374,2,1,0.5,Medium Recurrence
+Jayangar,4686,28,0.4031,68,0.2557,2,1,0.5,Medium Recurrence
+Jeevanbhima Nagar,4061,24,0.3531,68,0.2216,2,1,0.5,Medium Recurrence
+Jnanabharathi Ward,18323,28,0.5337,96,1.0,0,2,1.0,High Recurrence
+Jogupalya,2363,17,0.3483,64,0.129,1,0,0.0,Low Recurrence
+K.R.Market,1282,24,0.3222,56,0.07,1,0,0.0,Low Recurrence
+K.R.Puram,5451,29,0.3291,83,0.2975,2,1,0.5,Medium Recurrence
+Kacharakanahalli,2704,22,0.3639,66,0.1476,2,1,0.5,Medium Recurrence
+Kadugodi,4484,26,0.2908,81,0.2447,2,1,0.5,Medium Recurrence
+Kadugondanahalli,2051,22,0.4247,50,0.1119,1,0,0.0,Low Recurrence
+Kamakshipalya,1413,23,0.4367,54,0.0771,1,0,0.0,Low Recurrence
+Kammanahalli,2152,22,0.5349,56,0.1174,1,0,0.0,Low Recurrence
+Karisandra,1322,22,0.3457,53,0.0721,1,0,0.0,Low Recurrence
+Katriguppe,3203,23,0.3796,62,0.1748,2,1,0.5,Medium Recurrence
+Kavalbyrasandra,7817,24,0.4287,69,0.4266,2,1,0.5,Medium Recurrence
+Kaveripura,1365,22,0.3824,51,0.0745,1,0,0.0,Low Recurrence
+Kempapura Agrahara,903,18,0.6456,38,0.0493,1,0,0.0,Low Recurrence
+Kempegowda Ward,3860,27,0.5202,76,0.2107,2,1,0.5,Medium Recurrence
+Kengeri,5453,27,0.5292,84,0.2976,2,1,0.5,Medium Recurrence
+Kodigehalli,6511,24,0.3685,76,0.3553,2,1,0.5,Medium Recurrence
+Konanakunte,6409,24,0.3158,88,0.3498,2,1,0.5,Medium Recurrence
+Konena Agrahara,2855,22,0.3653,61,0.1558,1,0,0.0,Low Recurrence
+Koramangala,4659,30,0.3666,81,0.2543,2,1,0.5,Medium Recurrence
+Kottigepalya,8445,24,0.4783,83,0.4609,0,2,1.0,High Recurrence
+Kumaraswamy Layout,5568,27,0.4332,74,0.3039,2,1,0.5,Medium Recurrence
+Kushal Nagar,1154,16,0.5572,40,0.063,1,0,0.0,Low Recurrence
+Kuvempu Nagar,5012,24,0.4505,75,0.2735,2,1,0.5,Medium Recurrence
+Laggere,3002,21,0.5646,58,0.1638,1,0,0.0,Low Recurrence
+Lakkasandra,1150,22,0.4096,46,0.0628,1,0,0.0,Low Recurrence
+Lakshmidevi Nagar,661,17,0.5204,42,0.0361,1,0,0.0,Low Recurrence
+Lingarajapuram,1811,21,0.55,52,0.0988,1,0,0.0,Low Recurrence
+Madiwala,2815,23,0.4483,69,0.1536,2,1,0.5,Medium Recurrence
+Mahalakshmipuram,2141,22,0.483,55,0.1168,1,0,0.0,Low Recurrence
+Mallasandra,1533,22,0.5753,55,0.0837,1,0,0.0,Low Recurrence
+Malleshwaram,2869,25,0.4848,66,0.1566,2,1,0.5,Medium Recurrence
+Mangammanapalya,4077,25,0.3969,77,0.2225,2,1,0.5,Medium Recurrence
+Manorayanapalya,3369,21,0.4509,47,0.1839,1,0,0.0,Low Recurrence
+Marappana Palya,1429,22,0.4542,57,0.078,1,0,0.0,Low Recurrence
+Marathalli,2392,27,0.329,63,0.1305,2,1,0.5,Medium Recurrence
+Marenahalli,1484,20,0.3154,56,0.081,1,0,0.0,Low Recurrence
+Maruthi Mandira Ward,1520,21,0.3855,60,0.083,1,0,0.0,Low Recurrence
+Maruthi Seva Nagar,3857,23,0.321,63,0.2105,2,1,0.5,Medium Recurrence
+Mathikere,1844,21,0.5992,54,0.1006,1,0,0.0,Low Recurrence
+Moodalapalya,1381,21,0.4823,54,0.0754,1,0,0.0,Low Recurrence
+Muneshwara Nagar,760,16,0.4395,33,0.0415,1,0,0.0,Low Recurrence
+Nagapura,3179,22,0.4712,72,0.1735,2,1,0.5,Medium Recurrence
+Nagarabhavi,2030,21,0.4507,58,0.1108,1,0,0.0,Low Recurrence
+Nagavara,2844,24,0.4789,66,0.1552,2,1,0.5,Medium Recurrence
+Nandini Layout,2438,23,0.4126,64,0.1331,2,1,0.5,Medium Recurrence
+Nayandanahalli,1162,19,0.4002,51,0.0634,1,0,0.0,Low Recurrence
+Neelasandra,903,16,0.598,41,0.0493,1,0,0.0,Low Recurrence
+Newthippasandra,4586,24,0.3269,73,0.2503,2,1,0.5,Medium Recurrence
+Non Ward,2,1,1.0,1,0.0001,1,0,0.0,Low Recurrence
+Okalipuram,722,16,0.385,42,0.0394,1,0,0.0,Low Recurrence
+Padarayanapura,465,16,0.5441,27,0.0254,1,0,0.0,Low Recurrence
+Padmanabha Nagar,4581,22,0.4043,73,0.25,2,1,0.5,Medium Recurrence
+Pattabhiram Nagar,4359,25,0.3154,73,0.2379,2,1,0.5,Medium Recurrence
+Peenya Industrial Area,2501,24,0.3962,64,0.1365,2,1,0.5,Medium Recurrence
+Prakash Nagar,817,19,0.4627,42,0.0446,1,0,0.0,Low Recurrence
+Pulikeshi Nagar,2641,24,0.348,70,0.1441,2,1,0.5,Medium Recurrence
+Puttenahalli,3524,25,0.3039,77,0.1923,2,1,0.5,Medium Recurrence
+Radhakrishna Temple,3613,24,0.4404,68,0.1972,2,1,0.5,Medium Recurrence
+Rajagopala Nagar,2190,22,0.5146,56,0.1195,1,0,0.0,Low Recurrence
+Rajaji Nagar,1910,21,0.4812,54,0.1042,1,0,0.0,Low Recurrence
+Rajamahal,1619,18,0.509,45,0.0884,1,0,0.0,Low Recurrence
+Rajarajeshwari Nagar,17047,31,0.3927,97,0.9304,0,2,1.0,High Recurrence
+Ramamurthy Nagar,10929,26,0.3815,88,0.5965,0,2,1.0,High Recurrence
+Ramaswamy Palya,1252,16,0.508,51,0.0683,1,0,0.0,Low Recurrence
+Rayapuram,663,16,0.5158,34,0.0362,1,0,0.0,Low Recurrence
+S.K.Garden,928,15,0.4504,37,0.0506,1,0,0.0,Low Recurrence
+Sagayapuram,1838,20,0.2568,49,0.1003,1,0,0.0,Low Recurrence
+Sampangiram Nagar,3683,29,0.4005,87,0.201,2,1,0.5,Medium Recurrence
+Sanjay Nagar,3988,22,0.5685,63,0.2176,2,1,0.5,Medium Recurrence
+Sarakki,4110,23,0.3584,74,0.2243,2,1,0.5,Medium Recurrence
+Sarvagna Nagar,1842,21,0.3784,57,0.1005,1,0,0.0,Low Recurrence
+Shakambari Nagar,3611,26,0.3694,65,0.1971,2,1,0.5,Medium Recurrence
+Shakthiganapathi Nagar,1710,18,0.5678,46,0.0933,1,0,0.0,Low Recurrence
+Shankaramata,2016,21,0.5804,59,0.11,1,0,0.0,Low Recurrence
+Shanthala Nagar,5379,29,0.3062,83,0.2936,2,1,0.5,Medium Recurrence
+Shanthi Nagar,2660,21,0.4805,62,0.1452,1,0,0.0,Low Recurrence
+Shettyhalli,6848,27,0.5023,81,0.3737,2,1,0.5,Medium Recurrence
+Shiva Nagar,1609,20,0.56,47,0.0878,1,0,0.0,Low Recurrence
+Shivaji Nagar,1209,18,0.4979,45,0.066,1,0,0.0,Low Recurrence
+Siddapura,1212,25,0.382,50,0.0661,1,0,0.0,Low Recurrence
+Singasandra,9194,24,0.416,100,0.5018,0,2,1.0,High Recurrence
+Someshwara,11376,24,0.4142,77,0.6209,0,2,1.0,High Recurrence
+Sri Nagar,2662,22,0.4673,54,0.1453,1,0,0.0,Low Recurrence
+Sri Rammandira,2547,20,0.3624,62,0.139,1,0,0.0,Low Recurrence
+Subedarapalya,2038,21,0.581,51,0.1112,1,0,0.0,Low Recurrence
+Subhash Nagar,464,21,0.3297,39,0.0253,1,0,0.0,Low Recurrence
+Subramanya Nagar,1664,21,0.5186,53,0.0908,1,0,0.0,Low Recurrence
+Sudam Nagar,1836,21,0.3611,59,0.1002,1,0,0.0,Low Recurrence
+Sudduguntepalya,2066,21,0.4985,58,0.1128,1,0,0.0,Low Recurrence
+Sunkenahalli,3854,27,0.4336,70,0.2103,2,1,0.5,Medium Recurrence
+T-Dasarahalli,1660,21,0.4404,65,0.0906,1,0,0.0,Low Recurrence
+Thanisandra,14846,31,0.374,95,0.8102,0,2,1.0,High Recurrence
+Ullalu,10821,28,0.612,87,0.5906,0,2,1.0,High Recurrence
+Ulsoor,1944,26,0.3987,64,0.1061,2,1,0.5,Medium Recurrence
+Uttarahalli,12114,31,0.5033,98,0.6611,0,2,1.0,High Recurrence
+Vannarpet,2344,22,0.4087,58,0.1279,1,0,0.0,Low Recurrence
+Varthur,7848,27,0.2504,96,0.4283,0,2,1.0,High Recurrence
+Vasanth Nagar,2120,21,0.3703,64,0.1157,1,0,0.0,Low Recurrence
+Vasanthapura,9584,28,0.4732,90,0.5231,0,2,1.0,High Recurrence
+Vidyapeetha,3279,24,0.376,67,0.179,2,1,0.5,Medium Recurrence
+Vidyaranyapura,9949,26,0.4313,88,0.543,0,2,1.0,High Recurrence
+Vignana Nagar,5699,26,0.3443,83,0.311,2,1,0.5,Medium Recurrence
+Vijanapura,2750,24,0.4185,67,0.1501,2,1,0.5,Medium Recurrence
+Vijay Nagar,2429,22,0.6291,56,0.1326,1,0,0.0,Low Recurrence
+Vishwanathnagenahalli,5631,18,0.4356,64,0.3073,1,0,0.0,Low Recurrence
+Visvesvarapuram,3800,25,0.4492,70,0.2074,2,1,0.5,Medium Recurrence
+Vrushabhavati Nagar,831,20,0.5584,40,0.0454,1,0,0.0,Low Recurrence
+Yadiyuru,1646,23,0.4143,57,0.0898,1,0,0.0,Low Recurrence
+Yelachenahalli,4837,22,0.4261,67,0.264,2,1,0.5,Medium Recurrence
+Yelahanka Old Satellite Town,4426,23,0.4243,75,0.2416,2,1,0.5,Medium Recurrence
+Yeshwanthpur,1339,19,0.5362,47,0.0731,1,0,0.0,Low Recurrence

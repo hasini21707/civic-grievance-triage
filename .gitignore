@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Local development notes
+.agents/
+
+# Coverage reports
+.coverage
+htmlcov/
+# Large processed dataset
+data/processed/cleaned_grievances.csv

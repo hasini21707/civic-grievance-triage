@@ -1,0 +1,102 @@
+[
+  {
+    "complaint_id": "BBMP-SAMPLE-001",
+    "type": "text",
+    "language": "kn",
+    "text_original": "ಮುಖ್ಯ ರಸ್ತೆಯಲ್ಲಿ ದೊಡ್ಡ ಹೊಂಡ ಇದೆ, ವಾಹನಗಳಿಗೆ ಹಾನಿ ಆಗುತ್ತಿದೆ",
+    "text_english": "There is a large pothole on the main road causing damage to vehicles",
+    "image_description": null,
+    "expected_category": "Roads and Infrastructure",
+    "expected_severity": "HIGH"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-002",
+    "type": "text",
+    "language": "hi",
+    "text_original": "मुख्य सड़क के पास कचरे का ढेर बहुत बड़ा हो गया है और बदबू आ रही है",
+    "text_english": "The garbage dump near the main road has overflowed and is emitting foul smell",
+    "image_description": null,
+    "expected_category": "Solid Waste Management",
+    "expected_severity": "HIGH"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-003",
+    "type": "text",
+    "language": "ta",
+    "text_original": "தெரு விளக்கு கடந்த மூன்று நாட்களாக எரியவில்லை, இரவில் நடக்க மிகவும் கஷ்டமாக உள்ளது",
+    "text_english": "The streetlight has not been working for the past three days, making it very difficult to walk at night",
+    "image_description": null,
+    "expected_category": "Street Lights",
+    "expected_severity": "MEDIUM"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-004",
+    "type": "text",
+    "language": "te",
+    "text_original": "పెద్ద చెట్టు రోడ్డుపై పడిపోయింది, వాహన రాకపోకలు నిలిచిపోయాయి, వెంటనే తొలగించాలి",
+    "text_english": "A large tree has fallen on the road blocking all vehicle movement, needs immediate removal",
+    "image_description": null,
+    "expected_category": "Tree/Parks Maintenance",
+    "expected_severity": "CRITICAL"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-005",
+    "type": "text",
+    "language": "en",
+    "text_original": "There is an open manhole on the footpath near Koramangala 5th Block. It is uncovered and poses a serious danger to pedestrians, especially children.",
+    "text_english": "There is an open manhole on the footpath near Koramangala 5th Block. It is uncovered and poses a serious danger to pedestrians, especially children.",
+    "image_description": null,
+    "expected_category": "Roads and Infrastructure",
+    "expected_severity": "CRITICAL"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-006",
+    "type": "voice",
+    "language": "kn",
+    "text_original": "ನಮ್ಮ ಬೀದಿಯಲ್ಲಿ ನೀರಿನ ಪೈಪ್ ಒಡೆದಿದೆ, ರಸ್ತೆ ತುಂಬಾ ನೀರು ನಿಂತಿದೆ, ದಯಮಾಡಿ ತಕ್ಷಣ ರಿಪೇರಿ ಮಾಡಿ",
+    "text_english": "The water pipe on our street has burst, water is flooding the road, please repair immediately",
+    "image_description": null,
+    "expected_category": "Water Supply",
+    "expected_severity": "HIGH"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-007",
+    "type": "image",
+    "language": "hi",
+    "text_original": "मुख्य सड़क पर बड़ा गड्ढा है जिसमें पानी भर गया है, वाहन दुर्घटनाएं हो रही हैं",
+    "text_english": "There is a large pothole filled with water on the main road causing vehicle accidents",
+    "image_description": "Wide-angle photo of a road showing a large pothole approximately 1.5 metres wide filled with muddy rainwater. Two-wheeler tyre tracks visible at the edge. Surrounding asphalt cracked and crumbling.",
+    "expected_category": "Roads and Infrastructure",
+    "expected_severity": "CRITICAL"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-008",
+    "type": "image",
+    "language": "ta",
+    "text_original": "பள்ளி அருகே குப்பை தொட்டி நிரம்பி வழிகிறது, குழந்தைகளுக்கு உடல்நல அபாயம் உள்ளது",
+    "text_english": "The garbage bin near the school is overflowing posing a health hazard to children",
+    "image_description": "Photograph of an overflowing garbage dumpster on a roadside approximately 20 metres from a school gate. Mixed waste including plastic bags, food waste, and cardboard spilling onto the pavement. Stray dogs visible scavenging.",
+    "expected_category": "Solid Waste Management",
+    "expected_severity": "HIGH"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-009",
+    "type": "voice",
+    "language": "te",
+    "text_original": "మా వీధిలో మురుగు నీరు పొంగి పారుతోంది, రోడ్డు మొత్తం నీరు నిండిపోయింది, ఇళ్ళలోకి వస్తోంది",
+    "text_english": "Drainage is overflowing on our street, the entire road is flooded and water is entering houses",
+    "image_description": null,
+    "expected_category": "Drainage",
+    "expected_severity": "HIGH"
+  },
+  {
+    "complaint_id": "BBMP-SAMPLE-010",
+    "type": "image",
+    "language": "en",
+    "text_original": "A massive fallen tree is completely blocking MG Road near Trinity Circle. Emergency services cannot pass. The tree fell during last night's storm.",
+    "text_english": "A massive fallen tree is completely blocking MG Road near Trinity Circle. Emergency services cannot pass. The tree fell during last night's storm.",
+    "image_description": "Aerial-perspective photo of a large uprooted tree (approximately 15 metres long) lying across the full width of a 4-lane road. Roots exposed, branches spread across both carriageways. Vehicles backed up on both sides.",
+    "expected_category": "Tree/Parks Maintenance",
+    "expected_severity": "CRITICAL"
+  }
+]

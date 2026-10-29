@@ -1,0 +1,44 @@
+{
+    "number_of_original_records": 766648,
+    "number_of_cleaned_records": 766648,
+    "number_of_duplicates": 0,
+    "number_of_wards": 199,
+    "number_of_categories": 32,
+    "number_of_subcategories": 181,
+    "date_range": {
+        "min_date": "2020-02-08 01:01:00",
+        "max_date": "2025-06-19 12:59:00"
+    },
+    "missing_values_raw": {
+        "Complaint ID": 0,
+        "Category": 0,
+        "Sub Category": 0,
+        "Grievance Date": 0,
+        "Ward Name": 0,
+        "Grievance Status": 74,
+        "Staff Remarks": 54,
+        "Staff Name": 54
+    },
+    "missing_values_cleaned": {
+        "Complaint ID": 0,
+        "Category": 0,
+        "Sub Category": 0,
+        "Grievance Date": 0,
+        "Ward Name": 0,
+        "Grievance Status": 0,
+        "Staff Remarks": 0,
+        "Staff Name": 0,
+        "Category_Clean": 0,
+        "Sub_Category_Clean": 0,
+        "Ward_Name_Clean": 0,
+        "Normalized_Status": 0,
+        "full_text": 0
+    },
+    "status_distribution": {
+        "Closed": 701878,
+        "Rejected": 32853,
+        "Registered": 20478,
+        "Resolved": 6953,
+        "In Progress": 4486
+    }
+}
