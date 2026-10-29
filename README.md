@@ -44,33 +44,119 @@ The system is built and evaluated on real, freely available municipal grievance 
 
 ## 🏗 Project Architecture (50% Milestone + Streamlit Web Dashboard)
 
-```
-civic_grievance_project/
+## 🏗 Project Architecture
+
+The Civic Grievance Triage and Resolution-Priority Scoring System is designed as a modular application that combines municipal complaint data processing, machine learning, ward-level recurrence analysis, priority scoring, and an interactive Streamlit dashboard.
+
+The architecture separates data, model development, application logic, and the user interface to make the system easier to maintain and extend.
+
+```text
+civic-grievance-triage/
+│
 ├── data/
-│   ├── raw/                        # 2020-2025 raw BBMP CSV files (766,648 records)
-│   └── processed/                  # Cleaned CSV, ward recurrence risk, dispatch queue
-├── models/                         # Serialized models (TF-IDF vectorizer, Naive Bayes, K-Means)
+│   ├── raw/                         # Original municipal grievance datasets
+│   └── processed/                   # Cleaned data and derived outputs
+│
+├── models/                          # Saved machine learning models
+│
 ├── notebooks/
-│   ├── 01_EDA.ipynb                # Exploratory Data Analysis
-│   ├── 02_Preprocessing.ipynb      # Data cleaning pipeline
-│   ├── 03_Severity_Classification.ipynb  # ML Severity classification comparison
-│   └── 04_KMeans_Recurrence.ipynb  # Ward recurrence K-Means clustering
+│   ├── 01_EDA.ipynb                 # Exploratory data analysis
+│   ├── 02_Preprocessing.ipynb       # Data cleaning and preparation
+│   ├── 03_Severity_Classification.ipynb
+│   └── 04_KMeans_Recurrence.ipynb   # Ward recurrence analysis
+│
 ├── src/
 │   ├── __init__.py
-│   ├── data_processing.py          # Data loading, cleaning, quality reporting
-│   ├── feature_engineering.py      # Keyword flags, derived severity, aging features
-│   ├── severity_model.py           # TF-IDF + Naive Bayes, LR, DT, KNN classification
-│   ├── recurrence_model.py         # K-Means ward recurrence risk clustering
-│   └── priority_score.py           # Composite priority scoring & daily dispatch queue
+│   ├── data_processing.py           # Data loading and cleaning
+│   ├── feature_engineering.py       # Severity and aging features
+│   ├── severity_model.py            # Complaint severity classification
+│   ├── recurrence_model.py           # Ward recurrence risk clustering
+│   └── priority_score.py            # Composite priority scoring
+│
+├── api/
+│   └── main.py                      # API application, if implemented
+│
 ├── dashboard/
-│   └── app.py                      # 🖥️ Interactive 6-Page Streamlit Web App
-├── tests/
-│   ├── test_data_processing.py     # Pytest suite for data loading & cleaning
-│   ├── test_severity_model.py      # Pytest suite for severity classification
-│   └── test_recurrence_model.py    # Pytest suite for ward recurrence & priority scoring
-├── requirements.txt                # Dependency manifest
-└── README.md                       # Complete documentation
+│   └── app.py                       # Streamlit dashboard
+│
+├── database/                        # Database-related files
+├── tests/                           # Automated tests
+├── scratch/                         # Supporting scripts and experiments
+├── .github/                         # GitHub configuration and workflows
+├── .gitignore                       # Files excluded from Git
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 ```
+
+### Main Architecture Components
+
+**1. Data Ingestion and Processing**
+
+Municipal grievance records are loaded from the available BBMP datasets. The processing module handles data preparation, cleaning, quality checks, and the generation of structured inputs for downstream analysis.
+
+**2. Feature Engineering**
+
+Complaint information is converted into useful features, including severity indicators, complaint aging, and ward-level recurrence information. These features support classification and priority calculation.
+
+**3. Severity Classification**
+
+Text-based machine learning models use TF-IDF features to classify complaint severity. The project includes algorithms such as Naive Bayes, Logistic Regression, Decision Tree, and K-Nearest Neighbors for comparison.
+
+**4. Ward Recurrence Risk Analysis**
+
+K-Means clustering is used to group wards according to recurrence-related features. The resulting analysis helps identify locations that may require additional attention.
+
+**5. Composite Priority Scoring**
+
+The priority-scoring component combines complaint severity, recurrence risk, and complaint aging to calculate a score for ranking grievances. The score supports the creation of a prioritized dispatch worklist rather than relying only on complaint arrival order.
+
+**6. Streamlit Dashboard**
+
+The dashboard provides an interface for exploring grievance records, examining ward-level patterns, predicting complaint severity, viewing priority rankings, and accessing multimodal submission features where implemented.
+
+**7. Multimodal Processing**
+
+The planned multimodal workflow extends complaint processing to voice and image/video inputs. Speech recognition and translation can convert supported regional-language complaints into text, while YOLOv8-based object detection can identify potential civic issues from images or video frames. These outputs can then be integrated into the existing complaint analysis workflow.
+
+**8. API and Database Integration**
+
+The `api/` and `database/` folders provide locations for API and database-related components. FastAPI endpoints and SQLite-based storage should be described as operational components only if they have been implemented and tested. Otherwise, they remain planned extensions.
+
+### Architecture Workflow
+
+```text
+Municipal Grievance Data
+          |
+          v
+   Data Processing
+          |
+          v
+   Feature Engineering
+          |
+          v
+   Severity Classification
+          |
+          +--------------------+
+          |                    |
+          v                    v
+ Ward Recurrence Analysis   Complaint Aging
+          |                    |
+          +---------+----------+
+                    |
+                    v
+          Composite Priority Score
+                    |
+                    v
+           Ranked Dispatch Queue
+                    |
+                    v
+          Streamlit Dashboard
+                    |
+                    v
+       Decision Support for Officials
+```
+
+The voice and vision workflows can provide additional complaint information to the processing pipeline. Their outputs should feed into the priority-scoring workflow only where that integration is implemented and verified.
 
 ---
 
@@ -165,18 +251,48 @@ python -m pytest tests/ -v
 
 ## 📈 Milestone Roadmap
 
-- [x] **Stage 1 (10%)**: Dataset Ingestion, Inspection & Quality Profiling
-- [x] **Stage 2 (20%)**: Data Preprocessing, Cleaning & Deduplication
-- [x] **Stage 3 (30%)**: Feature Engineering & Derived Severity Labeling
-- [x] **Stage 4 (40%)**: Machine Learning Severity Classification (TF-IDF + Naive Bayes, LR, DT, KNN)
-- [x] **Stage 5 (50%)**: Ward Recurrence Risk Clustering (K-Means) + 🖥️ **Streamlit Frontend Dashboard**
-- [x] **Stage 6 (60%)**: Advanced Multimodal AI Integration — Voice/NLP (Whisper + IndicBERT + Helsinki-NLP) + Vision (YOLOv8 + ViT) + 🌐 **Page 7 Multimodal Submission Dashboard**
-  - [x] Regional language NLP (Kannada, Hindi, Tamil, Telugu) with automatic translation
-  - [x] Voice/audio complaint submission via OpenAI Whisper ASR
-  - [x] Image/video inspection via YOLOv8n object detection
-  - [x] Automated civic issue validation (pothole depth, garbage volume, fallen trees)
-  - [x] Combined multimodal complaint processing pipeline
-- [ ] **Stage 7 (70%)**: Configurable Weight Matrix & Multi-Factor Priority Tuning
-- [ ] **Stage 8 (80%)**: Empirical Baseline Comparison (FIFO vs Proposed Composite System)
-- [ ] **Stage 9 (90%)**: FastAPI Backend Integration & OpenAPI REST Endpoints (`POST /predict`, `GET /wards/risk`)
-- [ ] **Stage 10 (100%)**: SQLite Database Ingestion Pipeline & Real-Time Ready Municipal Integration
+## 📈 Project Milestone Roadmap
+
+The project is being developed in ten stages, progressing from data preparation to a complete municipal grievance decision-support system.
+
+### Stage 1 (10%): Dataset Ingestion and Quality Profiling
+
+Collected and combined BBMP grievance records from 2020–2025. Examined dataset structure, missing values, complaint categories, ward distribution, and date ranges.
+
+### Stage 2 (20%): Data Preprocessing and Cleaning
+
+Developed data preparation workflows to handle missing values, standardize fields, remove duplicate records where appropriate, and prepare the dataset for analysis.
+
+### Stage 3 (30%): Feature Engineering and Severity Labeling
+
+Created relevant features from complaint information, including severity indicators, complaint aging, and attributes required for priority calculation.
+
+### Stage 4 (40%): Machine Learning-Based Severity Classification
+
+Developed and evaluated complaint severity classification models using TF-IDF text features and algorithms such as Naive Bayes, Logistic Regression, Decision Tree, and K-Nearest Neighbors.
+
+### Stage 5 (50%): Ward Recurrence Analysis and Dashboard Development
+
+Applied K-Means clustering to analyze ward-level recurrence patterns and developed the Streamlit dashboard for complaint analysis, risk visualization, prediction, and priority queue exploration.
+
+### Stage 6 (60%): Multimodal Complaint Processing
+
+Developed voice and vision processing workflows for civic complaints. The voice pipeline supports speech transcription, language detection, and translation, while the vision pipeline uses YOLOv8-based object detection to identify potential civic issues. The completion of these features depends on successful integration and testing.
+
+### Stage 7 (70%): Configurable Priority Scoring
+
+Planned the refinement of the composite priority score by allowing the weights assigned to complaint severity, ward recurrence risk, and complaint aging to be adjusted and evaluated.
+
+### Stage 8 (80%): Baseline Comparison and Evaluation
+
+Planned a comparative evaluation of the proposed priority-ranking system against First-In, First-Out (FIFO) processing using clearly defined evaluation metrics and experimental results.
+
+### Stage 9 (90%): Backend API Integration
+
+Planned the integration of a FastAPI backend with REST endpoints for complaint prediction, priority scoring, and ward recurrence risk retrieval.
+
+### Stage 10 (100%): Database Integration and Final Validation
+
+Planned the integration of SQLite for structured complaint storage and ingestion, followed by end-to-end testing, performance evaluation, documentation, and preparation for future municipal integration.
+
+**Note:** The milestone percentages represent the development roadmap, not measured model accuracy or guaranteed operational readiness. Each stage should be marked complete only after its implementation and relevant testing have been verified.
