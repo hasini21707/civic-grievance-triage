@@ -20,6 +20,38 @@ Traditional systems treat civic grievance analysis as a generic NLP complaint cl
 Combines **Complaint Severity** (via NLP ML Classification) + **Location-based Recurrence Risk** (via K-Means Ward Clustering) + **Complaint Aging** into a single dynamic operational **Priority Score (0–100)** and ranked **Daily Dispatch Worklist**.
 
 ---
+## 📂 Dataset Availability and Download Instructions
+
+### Dataset Source
+
+This project uses the **BBMP Grievances Data** published on OpenCity. It contains ward-level municipal grievance records categorized by year and is available in CSV format.
+
+**Official data portal:** https://data.opencity.in/
+
+### Why Is the Dataset Not Included in This Repository?
+
+The complete processed dataset, `cleaned_grievances.csv`, exceeds GitHub's 100 MB individual file limit. To keep the repository accessible and avoid upload restrictions, the large processed CSV file is not included.
+
+### How to Download the Dataset
+
+Anyone who wants to reproduce or explore this project can obtain the original data from OpenCity.
+
+1. Visit the OpenCity Data Portal.
+2. Search for **BBMP Grievances Data**.
+3. Open the dataset page.
+4. Click the CSV download option.
+5. Download the required yearly grievance files available on the portal.
+6. Place the downloaded files in the project's `data/raw/` directory.
+7. Follow the project's preprocessing workflow to prepare the cleaned dataset.
+
+### Dataset Used in This Project
+
+The project was developed using a combined dataset containing **766,648 grievance records** covering 2020–2025.
+
+The original downloaded files may require consolidation, cleaning, and preprocessing before they can be used by the application. The processed dataset generated during this process is stored separately from the GitHub repository because of its file size.
+
+**Note:** The number of records and the available years should be checked against the downloaded source files, as the source dataset may be updated over time.
+
 
 ## 📊 Dataset Ingestion & Empirical Profiling
 
