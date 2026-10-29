@@ -42,7 +42,7 @@ The system is built and evaluated on real, freely available municipal grievance 
 
 ---
 
-## 🏗 Project Architecture (50% Milestone + Streamlit Web Dashboard)
+
 
 ## 🏗 Project Architecture
 
